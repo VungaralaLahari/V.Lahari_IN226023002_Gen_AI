@@ -1,11 +1,25 @@
-# ASSIGNMENT: GenAI – AI Resume Screening System ✅
+#  AI Resume Screening System
 
-**LangSmith Project**: `ASSIGNMENT-GenAI-ResumeScreening`
+**Innomatics GenAI Task3** | **LangSmith Project:** `ASSIGNMENT-GenAI-ResumeScreening`
 
-## 🚀 FREE Setup (No OpenAI Key)
+##  Quick Demo
+STRONG: Score: 92 - Perfect match! AVERAGE: Score: 68 - Good skills WEAK: Score: 25 - Limited skills
 
+
+##  Features
+-  **LCEL Pipeline** (`@traceable`)
+-  **3 Resumes** tested (Strong/Avg/Weak)
+-  **Skill Extraction** → **Scoring 0-100**
+-  **LangSmith Tracing** (3 runs)
+-  **Modular**: `prompts/` `chains/` `main.py`
+
+##  Run Locally
 ```bash
-pip install -r requirements.txt
-cp .env.example .env
-# Add ONLY LangSmith key to .env
-python main.py
+pip install langsmith langchain-core
+python Task3/main.py
+```
+
+## Proof
+- Terminal: Scores + explanations
+- LangSmith: https://smith.langchain.com/ (ASSIGNMENT-GenAI-ResumeScreening)
+
